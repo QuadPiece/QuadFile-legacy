@@ -39,6 +39,10 @@
     <div class="button2 orangeBG">CREATOR</div>
     </a>
 
+    <a href="random">
+    <div class="button3 orangeBG">RANDOM</div>
+    </a>
+
   </body>
 
 </html>

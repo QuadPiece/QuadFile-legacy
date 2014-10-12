@@ -65,12 +65,29 @@ body {
   font-size: 12px;
 }
 
+.button3 {
+  position: fixed;
+  left: 5px;
+  top: 5px;
+  box-shadow: 2px 0px 2px #111;
+  opacity: 0.3;
+  border-radius: 0px;
+  display: inline-block;
+  margin: 5px;
+  padding: 8px;
+  font-size: 16px;
+}
+
 .button:hover {
   opacity: 1;
 }
 
 .button2:hover {
   opacity: 0.8;
+}
+
+.button3:hover {
+  opacity: 1;
 }
 
 img {

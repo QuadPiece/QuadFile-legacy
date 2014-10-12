@@ -49,7 +49,7 @@ if(isset($_FILES['file'])) {
 
           //Redirect to download page
           echo "Your file was added!";
-          header( "Refresh:5; url=../random", true, 303);
+          header( "Refresh:3; url=../random", true, 303);
 
         }else{echo "Redirect failed. Maybe your file was added, we're unsure :(";}
       }else{echo "This file is too large!";}

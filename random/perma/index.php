@@ -66,10 +66,14 @@ $extension = strtolower(end($extension));
       </a>
 
       <a href="../">
-      <div class="button">RANDOM</div>
+      <div class="button">RANDOM FILE</div>
       </a>
 
     </div>
+
+    <p class="dltext subtle">
+      You can share this page. It will always go directly to this file.
+    </p>
 
 		<?php include_once("../../static/includes/preview.php") ?>
 

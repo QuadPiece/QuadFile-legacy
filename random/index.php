@@ -45,8 +45,8 @@ $extension = strtolower(end($extension));
 
     <div class="buttoncontainer">
 
-      <a href="<?php echo $filelocation;?>">
-      <div class="button">DOWNLOAD</div>
+      <a href="<?php echo 'perma/' . $filename;?>">
+      <div class="button">PERMALINK</div>
       </a>
 
       <a href="../">

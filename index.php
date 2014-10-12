@@ -21,6 +21,10 @@
       Max filesize is 40 MB
     </p>
 
+    <p class="dltext subtle">
+      Files uploaded here are <b>NOT</b> found in the random section.
+    </p>
+
     <!-- File upload form -->
     <form class="uploadinterface" id="uploadform" action="upload.php" method="post" enctype="multipart/form-data">
       <input type="file" name="file" class="fileselector">

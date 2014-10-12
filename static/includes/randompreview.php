@@ -2,10 +2,10 @@
 
 //Echo previews for supported formats (This gon be messy son)
 if($extension == "webm") {
-  echo '<video class="videoprev dltext" controls><source src="file/' . $filename . '" type="video/webm">Get a browser that supports WebM fag.</video>';
+  echo '<video class="video-js vjs-default-skin videoprev" width="854" height="480" controls data-setup=' . "'" . '{"example_option":true}' . "'" . '><source src="file/' . $filename . '" type="video/webm">Get a browser that supports WebM fag.</video>';
 }
 elseif($extension == "mp4") {
-  echo '<video class="videoprev dltext" controls><source src="../file/' . $filename . '" type="video/webm">Get a browser that supports WebM fag.</video>
+  echo '<video class="video-js vjs-default-skin videoprev" width="854" height="480" controls data-setup=' . "'" . '{"example_option":true}' . "'" . '><source src="file/' . $filename . '" type="video/webm">Get a browser that supports WebM fag.</video>
   <p class="dltext subtle">Some MP4 files will play, some will not. There is unfortunately nothing we can do about this.</p>';
 }
 elseif($extension == "jpg") {

@@ -31,6 +31,10 @@ $extension = strtolower(end($extension));
 		<link rel="stylesheet" type="text/css" href="../static/view.css">
 		<link rel="stylesheet" type="text/css" href="../static/colors.css">
 
+		<?php
+		include_once("../static/includes/video.php")
+		?>
+
 	</head>
 	<body>
 

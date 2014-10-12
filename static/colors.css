@@ -1,0 +1,44 @@
+.redBG {
+	color: #F9F9F9;
+	background-color: #BF3128;
+}
+
+.blueBG {
+	color: #F9F9F9;
+	background-color: #0059A6;
+}
+
+.orangeBG {
+	background-color: #FF851B;
+	color: #111;
+}
+
+.grayBG {
+	background-color: #AAAAAA;
+	color: #111;
+}
+
+.blackBG {
+	background-color: #111;
+	color: #F9F9F9;
+}
+
+.yellowBG {
+	background-color: #FFDC00;
+	color: #111111;
+}
+
+.greenBG {
+	background-color: #2ECC40;
+	color: #F9F9F9;
+}
+
+.silverBG {
+	background-color: #DDDDDD;
+	color: #111;
+}
+
+.whiteBG {
+	background-color: #F9F9F9;
+	color: #111;
+}

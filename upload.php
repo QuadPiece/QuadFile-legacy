@@ -2,7 +2,7 @@
 
 //Check if a file has been submitted
 if(isset($_FILES['file'])) {
-  $file = $_FILES['file'];
+  $file = $_FILES['file']
 
   //File information and details
   $filename = $file['name'];

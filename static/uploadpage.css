@@ -41,12 +41,14 @@ body {
 
 .sidebar {
   padding-top: 20px;
-  background-color: #2d2d2d;
+  background-color: #222;
   position: fixed;
   top: 0px;
   left: 0px;
   height: 100%;
   width: 10%;
+  border: solid 0px #666;
+  border-right-width: 1px;
 }
 
 .button {

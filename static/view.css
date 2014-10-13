@@ -61,6 +61,27 @@ body {
 	transition: background 0.15s ease-in-out;
 }
 
+.uploadinterface {
+  width: 420px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  height: auto;
+}
+
+.fileselector {
+  font-size: 18px;
+  color: #FF851B;
+}
+
+.submitbutton {
+  font-size: 18px;
+}
+
+.submitbutton:hover {
+  border-color: #FF851B;
+}
+
 .buttoncontainer {
 	margin-top: 20px;
 	margin-bottom: 20px;

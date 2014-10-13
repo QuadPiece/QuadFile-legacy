@@ -35,17 +35,25 @@
       By using this service you agree to the limits located at the 'info' page
     </p>
 
-    <a href="static/info.html">
-    <div class="button orangeBG">INFO</div>
-    </a>
+    <div class="sidebar">
 
-    <a href="http://quad.moe">
-    <div class="button2 orangeBG">CREATOR</div>
-    </a>
+      <a href="static/info.html">
+      <div class="button orangeBG"><p class="buttontxt">INFO</p></div>
+      </a>
 
-    <a href="random">
-    <div class="button3 orangeBG">RANDOM</div>
-    </a>
+      <a href="http://quad.moe">
+      <div class="button orangeBG"><p class="buttontxt">CREATOR</p></div>
+      </a>
+
+      <a href="random">
+      <div class="button orangeBG"><p class="buttontxt">RANDOM</p></div>
+      </a>
+
+      <a href="http://github.com/QuadPiece/QuadFile">
+      <div class="button orangeBG"><p class="buttontxt">GITHUB</p></div>
+      </a>
+
+    </div>
 
   </body>
 

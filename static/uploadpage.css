@@ -39,55 +39,35 @@ body {
   height: auto;
 }
 
+.sidebar {
+  padding-top: 20px;
+  background-color: #2d2d2d;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 10%;
+}
+
 .button {
-  position: fixed;
-  right: 5px;
-  top: 5px;
-  box-shadow: 2px 0px 2px #111;
-  opacity: 0.3;
-  border-radius: 0px;
+  width: 100%;
+  opacity: 0.4;
   display: inline-block;
-  margin: 5px;
-  padding: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   font-size: 16px;
-}
-
-.button2 {
-  position: fixed;
-  right: 5px;
-  top: 50px;
-  box-shadow: 2px 0px 2px #111;
-  opacity: 0.2;
-  border-radius: 0px;
-  display: inline-block;
-  margin: 5px;
-  padding: 5px;
-  font-size: 12px;
-}
-
-.button3 {
-  position: fixed;
-  left: 5px;
-  top: 5px;
-  box-shadow: 2px 0px 2px #111;
-  opacity: 0.3;
-  border-radius: 0px;
-  display: inline-block;
-  margin: 5px;
-  padding: 8px;
-  font-size: 16px;
+  border: solid 0px #111;
+  border-top-width: 1px;
+  transition: opacity 0.15s ease-in-out;
 }
 
 .button:hover {
   opacity: 1;
 }
 
-.button2:hover {
-  opacity: 0.8;
-}
-
-.button3:hover {
-  opacity: 1;
+.buttontxt {
+  margin: 0px;
+  margin-left: 5px;
 }
 
 img {

@@ -48,7 +48,7 @@ $extension = strtolower(end($extension));
 		<link rel="stylesheet" type="text/css" href="../../static/colors.css">
 
     <?php
-    include_once("../../static/includes/video.php")
+    include_once("../../static/includes/permavideo.php")
     ?>
 
 	</head>

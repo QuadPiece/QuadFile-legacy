@@ -47,7 +47,7 @@ if(isset($_FILES['file'])) {
           //Redirect to download page
           header('Location: share/' . $newname);
 
-        }else{echo "Redirect failed. Try visiting: http://img.quad.moe/public/newbeta/share/" . $newname . " manually.";}
+        }else{echo "Redirect failed. Try visiting: http://file.quad.moe/share/" . $newname . " manually.";}
       }else{echo "This file is too large!";}
     }else{echo "Our server found a problem with this file. Try again";}
   }else{echo "This filetype is not allowed yet, sorry! If you think it should be. Mention @QuadPiece on Twitter and I'll think about it!";}

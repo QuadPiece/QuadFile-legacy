@@ -33,13 +33,13 @@ $extension = strtolower(end($extension));
     <!-- Twitter cards -->
 
     <?php
-    include_once("../../static/includes/cards.php")
+    include_once("../../static/includes/randomcards.php")
     ?>
 
     <!-- OpenGraph for Facebook -->
 
     <?php
-    include_once("../../static/includes/opengraph.php")
+    include_once("../../static/includes/randomopengraph.php")
     ?>
 
     <!-- Stylesheets -->

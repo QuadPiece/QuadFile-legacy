@@ -65,6 +65,10 @@ $extension = strtolower(end($extension));
         Upload a new file to the random section
       </p>
 
+      <p class="dltext subtle">
+        <a href="../static/info.html">Special limits</a> apply to this section<br />By uploading here you agree to those as well as the global limits
+      </p>
+
       <form class="uploadinterface" id="uploadform" action="upload.php" method="post" enctype="multipart/form-data">
         <input type="file" name="file" class="fileselector">
         <input type="submit" name="uploadbutton" value="upload" class="submitbutton">

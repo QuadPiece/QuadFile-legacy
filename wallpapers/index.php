@@ -9,7 +9,7 @@ error_reporting(-1);
 t:
 
 //Get random file
-$dir = '../random/file';
+$dir = '../wallpapers/file';
 $file = scandir($dir);
 $r = rand(2, sizeof($file)-1);
 

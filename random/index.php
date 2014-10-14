@@ -5,6 +5,9 @@ ini_set('display_startup_errors',1);
 ini_set('display_errors',1);
 error_reporting(-1);
 
+//Marker in case of unwanted file
+t:
+
 //Get random file
 $dir = '../random/file';
 $file = scandir($dir);
@@ -12,6 +15,11 @@ $r = rand(2, sizeof($file)-1);
 
 //Set to existing variable, because too lazy to rewrite everything
 $filename = $file[$r];
+
+//Lol
+if($filename == "Thumbs.db") {
+  goto t;
+}
 
 //Set the variables for the direct link
 $filelocation = "../random/file/" . $filename;

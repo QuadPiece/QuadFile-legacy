@@ -19,7 +19,7 @@ if(isset($_FILES['file'])) {
   $extension = strtolower(end($extension));
 
   //List of allowed exstensions
-  $allowed = array('png', 'jpg', 'jpeg', 'gif', 'webm', 'txt', 'mp4', 'wmv', 'mp3', 'ogg');
+  $allowed = array('png', 'jpg', 'jpeg');
 
   //Check if file is allowed
   if(in_array($extension, $allowed)) {
@@ -54,7 +54,7 @@ if(isset($_FILES['file'])) {
         }else{echo "Redirect failed. Maybe your file was added, we're unsure :(";}
       }else{echo "This file is too large!";}
     }else{echo "Our server found a problem with this file. Try again";}
-  }else{echo "This filetype is not allowed yet, sorry! If you think it should be. Mention @QuadPiece on Twitter and I'll think about it!";}
+  }else{echo "This filetype is not allowed in this section, sorry! If you think it should be. Mention @QuadPiece on Twitter and I'll think about it!";}
 }else{echo "We didn't find a file!";}
 
 ?>

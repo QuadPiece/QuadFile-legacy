@@ -55,6 +55,10 @@
       <div class="button orangeBG"><p class="buttontxt">RANDOM</p></div>
       </a>
 
+      <a href="wallpapers">
+      <div class="button orangeBG"><p class="buttontxt">WALLPAPERS</p></div>
+      </a>
+
     </div>
 
   </body>

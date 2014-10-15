@@ -45,12 +45,14 @@
       <div class="button orangeBG"><p class="buttontxt">CREATOR</p></div>
       </a>
 
-      <a href="random">
-      <div class="button orangeBG"><p class="buttontxt">RANDOM</p></div>
-      </a>
-
       <a href="http://github.com/QuadPiece/QuadFile">
       <div class="button orangeBG"><p class="buttontxt">GITHUB</p></div>
+      </a>
+
+      <div class="separator"><p class="buttontxt">Sections</p></div>
+
+      <a href="random">
+      <div class="button orangeBG"><p class="buttontxt">RANDOM</p></div>
       </a>
 
     </div>

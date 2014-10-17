@@ -17,6 +17,7 @@ How to use
 Pretty simple actually:
 
 * Drag all teh shit into a folder
+* Create an empty folder named 'file' in the root, random and wallpaper folders
 * Make sure that your webserver's config allows .htaccess in the folders that contain one
 * Enable rewrites (Google it, not too hard)
 

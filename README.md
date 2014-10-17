@@ -12,7 +12,7 @@ How to use
 * A webserver capable of PHP
 * The abillity to use .htaccess files
 
-**How ti set up**
+**How to set up**
 
 Pretty simple actually:
 

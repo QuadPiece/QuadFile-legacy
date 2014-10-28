@@ -70,6 +70,17 @@ body {
   margin-left: 8px;
 }
 
+.separator {
+  color: #F9F9F9;
+  width: 100%;
+  display: inline-block;
+  padding-top: 12px;
+  padding-bottom: 4px;
+  font-size: 16px;
+  border: solid 0px #111;
+  border-bottom-width: 1px;
+}
+
 img {
   display: block;
   border: solid 5px #2d2d2d;

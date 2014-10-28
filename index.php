@@ -18,11 +18,7 @@
     </p>
 
     <p class="dltext subtle">
-      Max filesize is 40 MB
-    </p>
-
-    <p class="dltext subtle">
-      Files uploaded here are <b>NOT</b> found in the random section.
+      Max filesize is 100 MB
     </p>
 
     <!-- File upload form -->
@@ -37,26 +33,24 @@
 
     <div class="sidebar">
 
+      <div class="separator"><p class="buttontxt">Main links</p></div>
+
       <a href="static/info.html">
-      <div class="button orangeBG"><p class="buttontxt">INFO</p></div>
+      <div class="button orangeBG"><p class="buttontxt">Info</p></div>
       </a>
 
-      <a href="http://quad.moe">
-      <div class="button orangeBG"><p class="buttontxt">CREATOR</p></div>
+      <a href="blog">
+      <div class="button orangeBG"><p class="buttontxt">News</p></div>
       </a>
 
-      <a href="http://github.com/QuadPiece/QuadFile">
-      <div class="button orangeBG"><p class="buttontxt">GITHUB</p></div>
+      <a href="http://hub.quad.moe">
+      <div class="button orangeBG"><p class="buttontxt">Creator</p></div>
       </a>
 
-      <div class="separator"><p class="buttontxt">Sections</p></div>
+      <div class="separator"><p class="buttontxt">Tools</p></div>
 
-      <a href="random">
-      <div class="button orangeBG"><p class="buttontxt">RANDOM</p></div>
-      </a>
-
-      <a href="wallpapers">
-      <div class="button orangeBG"><p class="buttontxt">WALLPAPERS</p></div>
+      <a href="md/sharex.html">
+      <div class="button orangeBG"><p class="buttontxt">ShareX</p></div>
       </a>
 
     </div>

@@ -54,7 +54,7 @@ $extension = strtolower(end($extension));
 	</head>
 	<body>
 
-    <!-- Google analytics because deal with it -->
+    <!-- There, I use Piwik now, be happy botnet freaks -->
     <?php include_once("../static/includes/botnet.php") ?>
 
 		<h1 class="dltext">"<?php echo $filename;?>"</h1>

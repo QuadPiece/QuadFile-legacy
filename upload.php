@@ -9,7 +9,7 @@ if(isset($_FILES['file'])) {
   $filetmp = $file['tmp_name'];
   $filesize = $file['size'];
   $error = $file['error'];
-  $maxsize = 41943040;
+  $maxsize = 104857600;
 
   //Find file extension for whitelisting
   $extension = explode('.', $filename);

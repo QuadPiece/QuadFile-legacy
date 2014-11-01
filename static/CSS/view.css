@@ -1,25 +1,13 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
 body {
-	color: #F9F9F9;
-	font-family: sans-serif;
+	color: #111;
+	font-family: "Open sans", sans-serif;
 	margin: 0;
 	padding: 0;
 	padding-top: 15px;
 	padding-bottom: 15px;
-	background-color: #111;
-}
-
-.topBar {
-	display: inline;
-	position: fixed;
-	top: 0px;
-	width: 100%;
-	padding: 10px;
-	padding-left: 30px;
-	padding-right: 30px;
-	margin: 0;
-	height: 30px;
-	background-color: rgba(17, 17, 17, 0.85);
-	z-index: 10;
+	background-color: #DDD;
 }
 
 .subtle {
@@ -28,11 +16,11 @@ body {
 }
 
 a, a:visited, a:hover {
-	color: #FF851B;
+	color: #e65100;
 }
 
 .dltext {
-	color: #FF851B;
+	color: #e65100;
 	text-align: center;
 }
 
@@ -41,6 +29,7 @@ a, a:visited, a:hover {
 	margin-right: auto;
 	margin-left: auto;
 	height: auto;
+	border: solid 3px #111;
 }
 
 .audioprev {
@@ -54,8 +43,8 @@ a, a:visited, a:hover {
 }
 
 .button {
-	border: solid 4px #F9F9F9;
-	color: #F9F9F9;
+	border: solid 4px #111;
+	color: #111;
 	font-weight: bold;
 	border-radius: 0px;
 	display: inline-block;
@@ -96,8 +85,8 @@ a, a:visited, a:hover {
 }
 
 .button:hover {
-	background-color: rgba(249, 249, 249, 1);
-	color: rgb(255, 133, 27);
+	background-color: rgba(13, 13, 13, 1);
+	color: #e65100;
 }
 
 img {

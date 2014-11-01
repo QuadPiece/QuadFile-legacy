@@ -6,8 +6,7 @@
 
     <meta name="description" content="Upload as many files as you wish and share them, 100% free and untracked.">
 
-    <link rel="stylesheet" href="static/uploadpage.css" media="screen" title="no title" charset="utf-8">
-    <link rel="stylesheet" href="static/colors.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="static/CSS/uploadpage.css" media="screen" title="no title" charset="utf-8">
 
   </head>
 
@@ -35,7 +34,7 @@
 
       <div class="separator"><p class="buttontxt">Main links</p></div>
 
-      <a href="static/info.html">
+      <a href="md/info.html">
       <div class="button orangeBG"><p class="buttontxt">Info</p></div>
       </a>
 

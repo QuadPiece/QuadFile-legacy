@@ -1,38 +1,36 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
 body {
-  color: #F9F9F9;
-  font-family: sans-serif;
+  color: #111;
+  font-family: "Open Sans", sans-serif;
   margin: 0;
   padding: 0;
   padding-top: 15px;
   padding-bottom: 15px;
-  background-color: #111;
+  background-color: #DDD;
 }
 
 .subtle {
-  font-size: 12px;
+  font-size: 18px;
   opacity: 0.6;
 }
 
 .submitbutton {
-  font-size: 18px;
-}
-
-.submitbutton:hover {
-  border-color: #FF851B;
+  font-size: 20px;
 }
 
 .fileselector {
-  font-size: 18px;
-  color: #FF851B;
+  font-size: 20px;
+  color: #111;
 }
 
 .dltext {
-  color: #F9F9F9;
+  color: #111;
   text-align: center;
 }
 
 .uploadinterface {
-  width: 420px;
+  width: 490px;
   display: block;
   margin-right: auto;
   margin-left: auto;
@@ -41,28 +39,30 @@ body {
 
 .sidebar {
   padding-top: 20px;
-  background-color: #222;
+  background-color: #AAA;
   position: fixed;
   top: 0px;
   left: 0px;
   height: 100%;
   width: 10%;
+  min-width: 120px;
 }
 
 .button {
+  background-color: #e65100;
   width: 100%;
-  opacity: 0.4;
+  color: #111;
   display: inline-block;
   padding-top: 8px;
   padding-bottom: 8px;
-  font-size: 16px;
+  font-size: 20px;
   border: solid 0px #111;
   border-bottom-width: 1px;
-  transition: opacity 0.15s ease-in-out;
+  transition: background 0.2s ease-in-out;
 }
 
 .button:hover {
-  opacity: 1;
+  background-color: #f57c00;
 }
 
 .buttontxt {
@@ -71,7 +71,7 @@ body {
 }
 
 .separator {
-  color: #F9F9F9;
+  color: #111;
   width: 100%;
   display: inline-block;
   padding-top: 12px;
@@ -93,6 +93,6 @@ img {
 .title {
   font-family: Tahoma, Verdana, Segoe, sans-serif;
   font-size: 72px;
-  color: #FF851B;
+  color: #111;
   margin-bottom: 10px;
 }

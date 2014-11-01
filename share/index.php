@@ -44,7 +44,7 @@ $extension = strtolower(end($extension));
 
     <!-- Stylesheets -->
 
-		<link rel="stylesheet" type="text/css" href="../static/view.css">
+		<link rel="stylesheet" type="text/css" href="../static/CSS/view.css">
 		<link rel="stylesheet" type="text/css" href="../static/colors.css">
 
     <?php

@@ -38,6 +38,10 @@
       <div class="button orangeBG"><p class="buttontxt">Info</p></div>
       </a>
 
+      <a href="md/faq.html">
+      <div class="button orangeBG"><p class="buttontxt">F.A.Q</p></div>
+      </a>
+
       <a href="blog">
       <div class="button orangeBG"><p class="buttontxt">News</p></div>
       </a>
@@ -50,6 +54,10 @@
 
       <a href="md/sharex.html">
       <div class="button orangeBG"><p class="buttontxt">ShareX</p></div>
+      </a>
+
+      <a href="css">
+      <div class="button orangeBG"><p class="buttontxt">CSS</p></div>
       </a>
 
     </div>

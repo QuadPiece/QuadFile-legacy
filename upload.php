@@ -16,7 +16,7 @@ if(isset($_FILES['file'])) {
   $extension = strtolower(end($extension));
 
   //List of allowed exstensions
-  $allowed = array('png', 'jpg', 'jpeg', 'gif', 'webm', 'txt', 'mp4', 'wmv', 'mp3', 'ogg', 'zip');
+  $allowed = array('png', 'jpg', 'jpeg', 'gif', 'webm', 'txt', 'mp4', 'wmv', 'mp3', 'ogg', 'zip', 'css');
 
   //Check if file is allowed
   if(in_array($extension, $allowed)) {

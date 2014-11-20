@@ -6,7 +6,7 @@ if (isset($_GET["filename"]) && $_GET["filename"] != "" && $_GET["filename"] != 
 }
 //404 if no value
 else {
-    $filename = "404.webm";
+    $filename = "404.png";
 }
 
 //404 if file doesn't exist
@@ -14,7 +14,7 @@ if (file_exists ("../file/" . $filename)) {
 }
 else {
     header("HTTP/1.0 404 Not Found");
-    $filename = "404.webm";
+    $filename = "404.png";
 }
 
 //Set the variables for the direct link
@@ -29,6 +29,8 @@ $extension = strtolower(end($extension));
 <html>
 	<head>
 		<title><?php echo $filename; ?> - QuadFile</title>
+
+    <meta charset="UTF-8">
 
     <!-- Twitter cards -->
 

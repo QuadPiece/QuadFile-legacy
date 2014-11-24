@@ -10,13 +10,13 @@ How to use
 **Requirements**
 
 * A webserver capable of PHP
-* The abillity to use .htaccess files
+* The abillity to use .htaccess files or do your own rewrites in nginx
 
 **How to set up**
 
 Pretty simple actually:
 
-* Drag all teh shit into a folder
+* Drag all the shit into a folder
 * Create an empty folder named 'file' in the root folder
 * Make sure that your webserver's config allows .htaccess in the folders that contain one
 * Enable rewrites (Google it, not too hard) or deal with them yourself if you use nginx

@@ -16,8 +16,11 @@ F: IF YOU ARE SNOOP DOGG YOU ARE EXEMPT FROM THE ABOVE TERMS.
 
 REDISTRIBUTION, COPYING, MODIFYING, REVERSE-ENGINEERING, LOOKING, GLANCING, PEEKING, SMELLING, AND OTHERWISE INTERACTING WITH THE FOLLOWING CSS IS PROHIBITED AND IS PUNISHABLE BY YOUR MOTHER, WHOM I FUCKED LAST NIGHT.*/
 
-//Check if a file has been submitted
-if(isset($_FILES['file'])) {
+try {
+  //Make sure a file has been submitted
+  if (!isset($_FILES['file'])) {
+    throw new Exception("We didn't find a file!");
+  }
   $file = $_FILES['file'];
 
   //File information and details
@@ -35,38 +38,38 @@ if(isset($_FILES['file'])) {
   $allowed = array('png', 'jpg', 'jpeg', 'gif', 'webm', 'txt', 'mp4', 'wmv', 'mp3', 'ogg', 'zip', 'css');
 
   //Check if file is allowed
-  if(in_array($extension, $allowed)) {
+  if(!in_array($extension, $allowed)) {
+    throw new Exception("This filetype is not allowed yet, sorry! If you think it should be. Mention @QuadPiece on Twitter and I'll think about it!");
+  }
 
-    //Check if there is an error
-    if($error === 0) {
+  //Check if there is an error
+  if($error !== 0) {
+    throw new Exception("Our server found a problem with this file. Try again");
+  }
 
-      //Check if size of file is below allowed filesize
-      if($filesize <= $maxsize) {
+  //Make sure the filesize is ok
+  if($filesize > $maxsize) {
+    throw new Exception();
+  }
 
-        //Marker in case name exists
-        g:
+  //Generate a file name, and regenerate it if a file with that name already exists
+  do {
+    $newname = strtoupper(substr(hash("sha256", reset($filename) . (rand() * 100)), 0, 6)) . "." . $extension;
+  } while (file_exists("/file/" . $newname));
 
-        //Generate unique ID (thanks danielpox for letting me rip off your code)
-        $newname = strtoupper(substr(hash("sha256", reset($filename) . (rand() * 100)), 0, 6)) . "." . $extension;
+  //Set file location
+  $location = 'file/' . $newname;
 
-        //Check if name exists
-        if (file_exists ("/file/" . $newname)) {
-          goto g;
-        }
+  //Move file to storage folder
+  if(!move_uploaded_file($filetmp, $location)) {
+    throw new Exception("Unable to move the file to the folder where it should be. You should probably mention @QuadPiece on twitter to tell him about this, because it's probably the server's fault.");
+  }
 
-        //Set file location
-        $location = 'file/' . $newname;
-
-        //Move file to storage folder
-        if(move_uploaded_file($filetmp, $location)) {
-
-          //Redirect to download page
-          header('Location: share/' . $newname);
-
-        }else{echo "Redirect failed. Try visiting: http://file.quad.moe/share/" . $newname . " manually.";}
-      }else{echo "This file is too large!";}
-    }else{echo "Our server found a problem with this file. Try again";}
-  }else{echo "This filetype is not allowed yet, sorry! If you think it should be. Mention @QuadPiece on Twitter and I'll think about it!";}
-}else{echo "We didn't find a file!";}
-
-?>
+  if (!header('Location: share/' . $newname)) {
+    throw new Exception("Redirect failed. Try visiting: http://file.quad.moe/share/" . $newname . " manually.");
+  }
+}
+//Catch errors and output them
+catch (Exception $e) {
+  echo $e->getMessage();
+}

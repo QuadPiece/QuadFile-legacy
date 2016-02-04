@@ -1,6 +1,8 @@
 QuadFile
 ========
 
+**This is the old QuadFile. The new one is written in python and can be found [here](https://git.quad.moe/quad/QuadFile)**
+
 Filesharing written in PHP, spaghetti edition
 (Meaning that you deserve a medal if you can decode this PHP code)
 
